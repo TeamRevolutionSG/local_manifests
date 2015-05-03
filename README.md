@@ -13,7 +13,7 @@ Getting Started
 To get started with building from Team Revolution sources, you are required to be
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-How To Build Resurrection Remix ROM for your device - Tutorial
+How To Build a ROM for your device from TeamRevolution Sources- Tutorial
 --------
 ### Build Environment
 
@@ -88,7 +88,7 @@ Congratulations on the succesfull build initialization! Now, we shall go ahead a
 - Follow the AOSP Porting Instructions stated here to prepare the proprietary files for building for your device: (http://xda-university.com/as-a-developer/porting-aosp-roms-using-source-code)
 
 ##### Setting Up CCache
-- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build Resurrection Remix faster than standard build times (Able to cut-down 50% of time taken to build).
+- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build the ROM faster than standard build times (Able to cut-down 50% of time taken to build).
 - To set up CCache, follow the following:
 
 
