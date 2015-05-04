@@ -1,4 +1,4 @@
-Local Manifests Repository
+Local Manifests Repository (Android Build Guide)
 ==============
 
 This repository is utilized for building for the devices under Team Revolution SG.
