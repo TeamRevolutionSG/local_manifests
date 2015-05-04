@@ -66,10 +66,11 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 ##### Then, follow the directions stated by the ROM's platform manifest
 
 ##### Downloading TeamRevolution Source Code
+Change 'cyanogenmod' to 'omni' if building for OMNI ROM
       $ cd <to the source code folder which should be empty except for the .repo folder>
       $ source build/envsetup.sh
       $ cd .repo
-      $ git clone https://github.com/TeamRevolutionSG/local_manifests.git -b master
+      $ git clone https://github.com/TeamRevolutionSG/local_manifests.git -b cyanogenmod
       $ croot
 
 ##### Syncing the source
