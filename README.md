@@ -70,9 +70,13 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 - Change 'cyanogenmod' to 'omni' if building for OMNI ROM
 
       $ cd <to the source code folder which should be empty except for the .repo folder>
+
       $ source build/envsetup.sh
+
       $ cd .repo
+
       $ git clone https://github.com/TeamRevolutionSG/local_manifests.git -b cyanogenmod
+
       $ croot
 
 ##### Syncing the source
@@ -100,7 +104,7 @@ Congratulations on the succesfull build initialization! Now, we shall go ahead a
         $ ~/<source code folder>/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
      -M 50G
-The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
+The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will decrease the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 
 ##### To build the ROM
 
