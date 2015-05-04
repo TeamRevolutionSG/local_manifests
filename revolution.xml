@@ -6,7 +6,7 @@
   
 
 <!--QCOM Assets-->
-  <project path="device/sony/qcom-common" name="Cyanogenmod/android_device_sony_qcom-common" remote="github" revision="cm-12.1" />
+  <project path="device/sony/qcom-common" name="Cyanogenmod/android_device_sony_qcom-common" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
 
 <!--Sony Assets-->
