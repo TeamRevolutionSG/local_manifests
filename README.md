@@ -1,4 +1,4 @@
-Local Manifests Repository
+Local Manifests Repository for CM
 ==============
 
 This repository is utilized for building for the devices under Team Revolution SG.
@@ -12,3 +12,9 @@ This repository is utilized for building for the devices under Team Revolution S
 |:-------------------------
 | CyanogenMod 12
 | Resurrection Remix
+| Vanir
+| AOSB
+| Carbon
+| SOKP
+| SlimRoms
+| LiquidSmooth
