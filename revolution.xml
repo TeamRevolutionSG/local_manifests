@@ -4,7 +4,10 @@
 <!--Remote Declaration-->
   <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
   
-
+<!--JustArchi's toolchains-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.8-arm-eabi" />
+  
 <!--QCOM Assets-->
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
 
@@ -26,4 +29,9 @@
   <project path="kernel/sony/msm8x60" name="smb237u/android_kernel_sony_msm8x60" remote="github" revision="cm-12.1" />
   <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
 
+<!--Remove stuff that we are not using-->
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arter97/arm-linux-androideabi-5.1" remote="github" revision="master" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="arter97/arm-linux-androideabi-5.1" remote="github" revision="master" />
 </manifest>
