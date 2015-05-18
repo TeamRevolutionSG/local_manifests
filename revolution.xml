@@ -1,1 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+<!--Remote Declaration-->
+  <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
+  
+
+<!--QCOM Assets-->
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
+
+<!--Sony Assets-->
+  <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+  <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
+  <project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+
+<!--Vendor Assets-->
+  <project path="vendor/sony" name="TeamRevolutionSG/android_vendor_sony" remote="github" revision="cm-12.1" />
+
+<!--Device Assets-->
+  <project name="CyanogenMod/android_device_sony_msm8960-common" path="device/sony/msm8960-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
+  <project name="TeamRevolutionSG/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1" />
+
+<!--Kernel Assets-->
+  <project path="kernel/sony/msm8x60" name="TeamRevolutionSG/android_kernel_sony_msm8x60" remote="github" revision="cm-12.1" />
+  <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
+
+</manifest>
