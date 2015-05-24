@@ -20,10 +20,10 @@
 <!--Device Assets-->
   <project name="CyanogenMod/android_device_sony_msm8960-common" path="device/sony/msm8960-common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
-  <project name="TeamRevolutionSG/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1" />
+  <project name="AndroidNoob69/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1" />
 
 <!--Kernel Assets-->
-  <project path="kernel/sony/msm8x60" name="TeamRevolutionSG/android_kernel_sony_msm8x60" remote="github" revision="cm-12.1" />
+  <project path="kernel/sony/msm8x60" name="AndroidNoob69/android_kernel_sony_msm8x60" remote="github" revision="cm-12.1" />
   <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
 
 </manifest>
