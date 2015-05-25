@@ -3,7 +3,8 @@
 
 <!--Remote Declaration-->
   <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
-  
+  <remote name="bb" fetch="https://bitbucket.org/" />
+
 <!-- REMOVE GCC 4.8 Toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" /> 
@@ -29,8 +30,8 @@
   <project path="kernel/sony/msm8x60" name="AndroidNoob69/android_kernel_sony_msm8x60" remote="github" revision="phoenix" />
   <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
 
-<!--Arter97's toolchains-->
-  <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="cm-12.0" />
-  <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="cm-12.0" /> 
+<!--LS's toolchains-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
 
 </manifest>
