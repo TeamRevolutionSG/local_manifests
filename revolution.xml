@@ -3,7 +3,9 @@
 
 <!--Remote Declaration-->
   <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
-  
+ 
+  <!--Remove Project-->
+  <remove-project name="temasek/android_bootable_recovery" />
 
 <!--QCOM Assets-->
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
@@ -25,5 +27,8 @@
 <!--Kernel Assets-->
   <project path="kernel/sony/msm8x60" name="TeamRevolutionSG/android_kernel_sony_msm8x60" remote="github" revision="cm-12.1" />
   <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
+
+<!--Bootable Recovery Patched-->
+  <project name="TeamRevolutionSG/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
 
 </manifest>
