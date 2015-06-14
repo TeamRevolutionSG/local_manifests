@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- REMOVE GCC 4.9 Toolchain -->
-  <remove-project name="arter97/arm-linux-androideabi-4.9" />
 
 <!--Remote Declaration-->
   <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
@@ -34,7 +32,4 @@
 <!--Bootable Recovery Patched-->
   <project name="TeamRevolutionSG/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
 
-<!--LS's toolchains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.9-arm-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ArchiDroid/Toolchain" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4" />
 </manifest>
