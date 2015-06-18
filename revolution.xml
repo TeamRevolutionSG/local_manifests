@@ -2,7 +2,6 @@
 <manifest>
 
 <!--Remove Toolchain-->
-  <remove-project name="arter97/arm-linux-androideabi-5.1" />
   <remove-project name="arter97/arm-linux-androideabi-5.1" /> 
 
 <!--Remote Declaration-->
