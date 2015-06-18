@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!--Remove Toolchain-->
+  <remove-project name="arter97/arm-linux-androideabi-5.1" />
+  <remove-project name="arter97/arm-linux-androideabi-5.1" /> 
 
 <!--Remote Declaration-->
   <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
@@ -31,5 +34,9 @@
 
 <!--Bootable Recovery Patched-->
   <project name="TeamRevolutionSG/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
+  
+<!--JustArchi's toolchains-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="ArchiDroid/Toolchain" remote="github" revision="architoolchain-5.1-arm-linux-gnueabihf-cortex_a15_neon_vfpv4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="ArchiDroid/Toolchain" remote="github" revision="linaro-5.1" />
   
 </manifest>
