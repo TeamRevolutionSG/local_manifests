@@ -1,41 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!--Remove Toolchain-->
-  <remove-project name="arter97/arm-linux-androideabi-5.1" /> 
+  <remote name="sony"     fetch="git://github.com/sonyxperiadev/" />
+  <remote name="bitbucket"   fetch="https://bitbucket.org/" />
 
-<!--Remote Declaration-->
-  <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
- 
-  <!--Remove Project-->
-  <remove-project name="temasek/android_bootable_recovery" />
+<!--Remove Assets-->
+  <remove-project          name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
 
 <!--QCOM Assets-->
-  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
+  <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"           revision="cm-12.1"                                                              path="hardware/qcom/fm" />
 
 <!--Sony Assets-->
-  <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
-  <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
-  <project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
-  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+  <project remote="sony"   name="thermanager"                                    revision="master"                                               groups="device" path="vendor/sony/system/thermanager" />
+  <project remote="sony"   name="mkqcdtbootimg"                                  revision="master"                                               groups="device" path="vendor/sony/system/mkqcdtbootimg" />
+  <project remote="sony"   name="timekeep"                                       revision="master"                                               groups="device" path="vendor/sony/system/timekeep" />
+  <project remote="github" name="Mrcl1450/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
 
 <!--Vendor Assets-->
-  <project path="vendor/sony" name="TeamRevolutionSG/vendor_sony" remote="github" revision="cm-12.1" />
+  <project remote="github" name="Mrcl1450/proprietary_vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
 
 <!--Device Assets-->
-  <project name="CyanogenMod/android_device_sony_msm8960-common" path="device/sony/msm8960-common" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1" />
- 
-<!--Kernel Assets-->
-  <project path="kernel/sony/msm8x60" name="Tomoms/android_kernel_sony_msm8x60" remote="github" revision="master" />
-  <project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" />
+  <project remote="github" name="Mrcl1450/android_device_sony_msm8960-common"    revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
+  <project remote="github" name="CyanogenMod/android_device_sony_common"         revision="cm-12.1"                                                              path="device/sony/common" />
+  <project remote="github" name="Mrcl1450/android_device_sony_huashan"           revision="cm-12.1"                                                              path="device/sony/huashan" />
 
-<!--Bootable Recovery Patched-->
-  <project name="TeamRevolutionSG/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-12.1" />
-  
-<!--JustArchi's toolchains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="ArchiDroid/Toolchain" remote="github" revision="linaro-5.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="ArchiDroid/Toolchain" remote="github" revision="linaro-5.1" />
-  
+<!--Kernel Assets-->
+  <project remote="github" name="mrcl1450/android_kernel_sony_msm8x60"             revision="cm-12.1"                                                               path="kernel/sony/msm8x60" />
+  <project remote="sony"   name="kernel"                                         revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" groups="device" path="kernel/sony/msm"/>
+
+<!--Toolchain Assets -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-uber" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" /> 
+
 </manifest>
