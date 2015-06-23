@@ -2,10 +2,6 @@
 <manifest>
 
   <remote name="sony"     fetch="git://github.com/sonyxperiadev/" />
-  <remote name="bitbucket"   fetch="https://bitbucket.org/" />
-
-<!--Remove Assets-->
-  <remove-project          name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
 
 <!--QCOM Assets-->
   <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"           revision="cm-12.1"                                                              path="hardware/qcom/fm" />
@@ -14,21 +10,18 @@
   <project remote="sony"   name="thermanager"                                    revision="master"                                               groups="device" path="vendor/sony/system/thermanager" />
   <project remote="sony"   name="mkqcdtbootimg"                                  revision="master"                                               groups="device" path="vendor/sony/system/mkqcdtbootimg" />
   <project remote="sony"   name="timekeep"                                       revision="master"                                               groups="device" path="vendor/sony/system/timekeep" />
-  <project remote="github" name="Mrcl1450/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
+  <project remote="github" name="CyanogenMod/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
 
 <!--Vendor Assets-->
-  <project remote="github" name="Mrcl1450/proprietary_vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
+  <project remote="github" name="TeamRevolutionSG/vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
 
 <!--Device Assets-->
-  <project remote="github" name="Mrcl1450/android_device_sony_msm8960-common"    revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
+  <project remote="github" name="CyanogenMod/android_device_sony_msm8960-common"    revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
   <project remote="github" name="CyanogenMod/android_device_sony_common"         revision="cm-12.1"                                                              path="device/sony/common" />
-  <project remote="github" name="Mrcl1450/android_device_sony_huashan"           revision="cm-12.1"                                                              path="device/sony/huashan" />
+  <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan"           revision="cm-12.1"                                                              path="device/sony/huashan" />
 
 <!--Kernel Assets-->
-  <project remote="github" name="mrcl1450/android_kernel_sony_msm8x60"             revision="cm-12.1"                                                               path="kernel/sony/msm8x60" />
+  <project remote="github" name="CyanogenMod/android_kernel_sony_msm8x60"             revision="cm-12.1"                                                               path="kernel/sony/msm8x60" />
   <project remote="sony"   name="kernel"                                         revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" groups="device" path="kernel/sony/msm"/>
-
-<!--Toolchain Assets -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-uber" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" /> 
 
 </manifest>
