@@ -13,7 +13,7 @@
   <project remote="github" name="CyanogenMod/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
 
 <!--Vendor Assets-->
-  <project remote="github" name="TeamRevolutionSG/vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
+  <project remote="github" name="proprietary_vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
 
 <!--Device Assets-->
   <project remote="github" name="CyanogenMod/android_device_sony_msm8960-common"    revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
