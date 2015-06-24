@@ -2,7 +2,10 @@
 <manifest>
 
   <remote name="sony"     fetch="git://github.com/sonyxperiadev/" />
-
+  
+<!--Remove Unpatched Recovery-->
+  <remove-project name="temasek/android_bootable_recovery" />
+  
 <!--QCOM Assets-->
   <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"           revision="cm-12.1"                                                              path="hardware/qcom/fm" />
 
@@ -16,12 +19,15 @@
   <project remote="github" name="Mrcl1450/proprietary_vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
 
 <!--Device Assets-->
-  <project remote="github" name="CyanogenMod/android_device_sony_msm8960-common"    revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
+  <project remote="github" name="CyanogenMod/android_device_sony_msm8960-common" revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
   <project remote="github" name="CyanogenMod/android_device_sony_common"         revision="cm-12.1"                                                              path="device/sony/common" />
   <project remote="github" name="Mrcl1450/android_device_sony_huashan"           revision="cm-12.1"                                                              path="device/sony/huashan" />
 
 <!--Kernel Assets-->
-  <project remote="github" name="CyanogenMod/android_kernel_sony_msm8x60"             revision="cm-12.1"                                                               path="kernel/sony/msm8x60" />
+  <project remote="github" name="CyanogenMod/android_kernel_sony_msm8x60"        revision="cm-12.1"                                                              path="kernel/sony/msm8x60" />
   <project remote="sony"   name="kernel"                                         revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" groups="device" path="kernel/sony/msm"/>
-
+  
+<!--Bootable Recovery Patched-->
+  <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"     revision="cm-12.1"                                                              path="bootable/recovery"  />
+  
 </manifest>
