@@ -16,15 +16,15 @@
   <project remote="github" name="AdrianDC/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
 
 <!--Vendor Assets-->
-  <project remote="github" name="AdrianDC/proprietary_vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
+  <project remote="github" name="AdrianDC/proprietary_vendor_sony"               revision="cm-12.1_ok"                                                              path="vendor/sony" />
 
 <!--Device Assets-->
   <project remote="github" name="AdrianDC/android_device_sony_msm8960-common" revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
   <project remote="github" name="CyanogenMod/android_device_sony_common"         revision="cm-12.1"                                                              path="device/sony/common" />
-  <project remote="github" name="AdrianDC/android_device_sony_huashan"           revision="cm-12.1"                                                              path="device/sony/huashan" />
+  <project remote="github" name="AdrianDC/android_device_sony_huashan"           revision="cm-12.1_ok"                                                              path="device/sony/huashan" />
 
 <!--Kernel Assets-->
-  <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"        revision="cm-12.1"                                                              path="kernel/sony/msm8x60" />
+  <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"        revision="cm-12.1_ok"                                                              path="kernel/sony/msm8x60" />
   <project remote="sony"   name="kernel"                                         revision="aosp/AU_LINUX_ANDROID_LA.BF.2.1_RB1.05.00.00.173.012" groups="device" path="kernel/sony/msm"/>
   
 <!--Bootable Recovery Patched-->
