@@ -13,13 +13,13 @@
   <project remote="sony"   name="thermanager"                                    revision="master"                                               groups="device" path="vendor/sony/system/thermanager" />
   <project remote="sony"   name="mkqcdtbootimg"                                  revision="master"                                               groups="device" path="vendor/sony/system/mkqcdtbootimg" />
   <project remote="sony"   name="timekeep"                                       revision="master"                                               groups="device" path="vendor/sony/system/timekeep" />
-  <project remote="github" name="Mrcl1450/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
+  <project remote="github" name="AdrianDC/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
 
 <!--Vendor Assets-->
-  <project remote="github" name="Mrcl1450/proprietary_vendor_sony"               revision="cm-12.1"                                                              path="vendor/sony" />
+  <project remote="github" name="AdrianDC/proprietary_vendor_sony"               revision="cm-12.1_clean"                                                              path="vendor/sony" />
 
 <!--Device Assets-->
-  <project remote="github" name="Mrcl1450/android_device_sony_msm8960-common" revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
+  <project remote="github" name="AdrianDC/android_device_sony_msm8960-common" revision="cm-12.1"                                                              path="device/sony/msm8960-common" />
   <project remote="github" name="CyanogenMod/android_device_sony_common"         revision="cm-12.1"                                                              path="device/sony/common" />
   <project remote="github" name="smb237u/android_device_sony_huashan"           revision="cm-12.1_clean"                                                              path="device/sony/huashan" />
 
