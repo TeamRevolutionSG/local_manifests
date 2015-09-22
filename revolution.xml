@@ -13,17 +13,17 @@
   <project remote="sony"   name="thermanager"                                    revision="master"                                               groups="device" path="vendor/sony/system/thermanager" />
   <project remote="sony"   name="mkqcdtbootimg"                                  revision="master"                                               groups="device" path="vendor/sony/system/mkqcdtbootimg" />
   <project remote="sony"   name="timekeep"                                       revision="master"                                               groups="device" path="vendor/sony/system/timekeep" />
-  <project remote="github" name="smb237u/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
+  <project remote="github" name="AdrianDC/android_hardware_sony_DASH"         revision="cm-12.1"                                              groups="device" path="hardware/sony/DASH" />
 
 <!--Vendor Assets-->
-  <project remote="github" name="smb237u/proprietary_vendor_sony"               revision="cm-12.1_clean"                                                              path="vendor/sony" />
+  <project remote="github" name="AdrianDC/proprietary_vendor_sony"               revision="cm-12.1_clean"                                                              path="vendor/sony" />
 
 <!--Device Assets-->
   <project remote="github" name="TeamRevolutionSG/android_device_sony_common"         revision="cm-12.1"                                                              path="device/sony/common" />
-  <project remote="github" name="TeamRevolutionSG/temasek_device_sony_huashan"           revision="cm-12.1"                                                              path="device/sony/huashan" />
+  <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan-DC"           revision="cm-12.1_clean"                                                              path="device/sony/huashan" />
 
 <!--Kernel Assets-->
-  <project remote="github" name="smb237u/android_kernel_sony_msm8x60"        revision="cm-12.1_clean"                                                              path="kernel/sony/msm8x60" />
+  <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"        revision="cm-12.1_clean"                                                              path="kernel/sony/msm8x60" />
 
 <!--Bootable Recovery Patched-->
   <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"     revision="cm-12.1"                                                              path="bootable/recovery"  />
