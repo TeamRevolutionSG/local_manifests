@@ -6,6 +6,9 @@
 <!--Remove Unpatched Recovery-->
   <remove-project name="temasek/android_bootable_recovery" />
   
+<!--Remove Camera2-->
+  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+  
 <!--QCOM Assets-->
   <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"           revision="cm-12.1"                                                              path="hardware/qcom/fm" />
 
