@@ -11,7 +11,6 @@
 <!--Remove AOSP Prebuilt Toolchain-->
   <remove-project          name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8"               />
   <remove-project          name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"                            />
-  <remove-project          name="arter97/arm-linux-androideabi-4.9"                                            />
 
 <!--Remove Unpatched Recovery-->
   <remove-project          name="temasek/android_bootable_recovery"                                            />
