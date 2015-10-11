@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="sony"     fetch="git://github.com/sonyxperiadev/" />
-  <remote name="bb"     fetch="https://bitbucket.org/" />
+  <remote name="sony"   fetch="git://github.com/sonyxperiadev/"                                                />
+  <remote name="bb"     fetch="https://bitbucket.org/"                                                         />
   
   
 <!--Remove Arter97's Toolchain-->
-  <remove-project name="arter97/arm-linux-androideabi-4.9" />
+  <remove-project          name="arter97/arm-linux-androideabi-4.9"                                            />
 
 <!--Remove AOSP Prebuilt Toolchain-->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <remove-project name="arter97/arm-linux-androideabi-4.9" />
+  <remove-project          name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8"               />
+  <remove-project          name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"                            />
+  <remove-project          name="arter97/arm-linux-androideabi-4.9"                                            />
 
 <!--Remove Unpatched Recovery-->
-  <remove-project name="temasek/android_bootable_recovery" />
+  <remove-project          name="temasek/android_bootable_recovery"                                            />
   
 <!--Remove Camera2-->
-  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+  <remove-project          name="CyanogenMod/android_packages_apps_Camera2"                                    />
   
   
   
 <!--QCOM Assets-->
-  <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"              revision="cm-12.1"                                             path="hardware/qcom/fm" />
+  <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"              revision="cm-12.1"                                             path="hardware/qcom/fm"                                      />
 
 <!--Sony Assets-->
-  <project remote="sony"   name="thermanager"                                       revision="master"                         groups="device"      path="vendor/sony/system/thermanager" />
-  <project remote="sony"   name="mkqcdtbootimg"                                     revision="master"                         groups="device"      path="vendor/sony/system/mkqcdtbootimg" />
-  <project remote="sony"   name="timekeep"                                          revision="master"                         groups="device"      path="vendor/sony/system/timekeep" />
-  <project remote="github" name="AdrianDC/android_hardware_sony_DASH"               revision="cm-12.1"                        groups="device"      path="hardware/sony/DASH" />
+  <project remote="sony"   name="thermanager"                                       revision="master"                   groups="device"           path="vendor/sony/system/thermanager"                         />
+  <project remote="sony"   name="mkqcdtbootimg"                                     revision="master"                   groups="device"           path="vendor/sony/system/mkqcdtbootimg"                       />
+  <project remote="sony"   name="timekeep"                                          revision="master"                   groups="device"           path="vendor/sony/system/timekeep"                            />
+  <project remote="github" name="AdrianDC/android_hardware_sony_DASH"               revision="cm-12.1"                  groups="device"           path="hardware/sony/DASH"                                     />
 
 <!--Vendor Assets-->
-  <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1_clean"                                       path="vendor/sony" />
+  <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1_clean"                                       path="vendor/sony"                                           />
 
 <!--Device Assets-->
-  <project remote="github" name="TeamRevolutionSG/android_device_sony_common"       revision="cm-12.1"                                             path="device/sony/common" />
-  <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan-DC"   revision="cm-12.1_clean"                                       path="device/sony/huashan" />
+  <project remote="github" name="TeamRevolutionSG/android_device_sony_common"       revision="cm-12.1"                                             path="device/sony/common"                                    />
+  <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan-DC"   revision="cm-12.1_clean"                                       path="device/sony/huashan"                                   />
 
 <!--Kernel Assets-->
-  <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"              revision="cm-12.1_clean"                                       path="kernel/sony/msm8x60" />
+  <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"              revision="cm-12.1_clean"                                       path="kernel/sony/msm8x60"                                   />
 
 <!--Bootable Recovery Patched-->
-  <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"        revision="cm-12.1"                                             path="bootable/recovery"  />
+  <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"        revision="cm-12.1"                                             path="bootable/recovery"                                     />
   
 <!--ARM UberTC Toolchain-->
-  <project remote="bb"     name="UBERTC/arm-eabi-4.8"                               revision="master"                                              path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project remote="bb"     name="UBERTC/arm-eabi-4.9"                               revision="master"                                              path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" />
+  <project remote="bb"     name="UBERTC/arm-eabi-4.8"                               revision="master"                                              path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"              />
+  <project remote="bb"     name="UBERTC/arm-eabi-4.9"                               revision="master"                                              path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"              />
   <project remote="bb"     name="UBERTC/arm-linux-androideabi-4.8"                  revision="master"                                              path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
   <project remote="bb"     name="UBERTC/arm-linux-androideabi-4.9"                  revision="master"                                              path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />  
 </manifest>
