@@ -30,7 +30,7 @@
   <project remote="github" name="AdrianDC/android_hardware_sony_DASH"               revision="cm-12.1"                  groups="device"           path="hardware/sony/DASH"                                     />
 
 <!--Vendor Assets-->
-  <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1_clean"                                       path="vendor/sony"                                           />
+  <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1"                                       path="vendor/sony"                                           />
 
 <!--Device Assets-->
   <project remote="github" name="TeamRevolutionSG/android_device_sony_common"       revision="cm-12.1"                                             path="device/sony/common"                                    />
