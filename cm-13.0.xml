@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="sony"   fetch="git://github.com/sonyxperiadev/"                                                />
-  <remote name="bb"     fetch="https://bitbucket.org/"                                                         />
-  
+  <remote name="sony"   fetch="git://github.com/sonyxperiadev/"                                                />  
   
 <!--Remove Unpatched Recovery-->
   <remove-project          name="temasek/android_bootable_recovery"                                            />
