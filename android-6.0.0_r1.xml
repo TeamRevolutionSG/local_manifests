@@ -4,6 +4,9 @@
 <!--Declare Sony's Remote-->
   <remote name="sony"   fetch="git://github.com/sonyxperiadev/"                                                />  
 
+<!--Declare Github's Remote-->
+  <remote name="github"   fetch="https://github.com/"                                                />  
+
 <!--Include Patched Recovery-->
   <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"        revision="cm-13.0"                                            path="bootable/recovery"                                     />
   
