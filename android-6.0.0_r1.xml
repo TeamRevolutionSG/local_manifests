@@ -18,7 +18,7 @@
 
 <!--Device Source Code-->
   <project remote="github" name="TeamRevolutionSG/android_device_sony_common"       revision="cm-13.0"                                            path="device/sony/common"                                    />
-  <project remote="github" name="TeamRevolutionSG/aosp_device_sony_huashan"   		revision="android-6.0.0_r1"                                   path="device/sony/huashan"                                   />
+  <project remote="github" name="AdrianDC/aosp_device_sony_huashan"   		revision="android-6.0.0_r1"                                   path="device/sony/huashan"                                   />
 
 <!--Kernel Source Code-->
   <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"              revision="android-6.0.0_r1"                                   path="kernel/sony/msm8x60"                                   />
