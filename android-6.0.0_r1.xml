@@ -7,9 +7,6 @@
 <!--Declare Github's Remote-->
   <remote name="github"   fetch="https://github.com/"                                                />  
 
-<!--Include Patched Recovery-->
-  <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"        revision="cm-13.0"                                            path="bootable/recovery"                                     />
-  
 <!--Sony Proprietary Modules-->
   <project remote="sony"   name="thermanager"                                       revision="master"                   groups="device"           path="vendor/sony/system/thermanager"                        />
   <project remote="sony"   name="mkqcdtbootimg"                                     revision="master"                   groups="device"           path="vendor/sony/system/mkqcdtbootimg"                      />
