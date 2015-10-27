@@ -17,7 +17,7 @@
   <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-13.0"           	              				  path="vendor/sony"                                           />
 
 <!--Device Source Code-->
-  <project remote="github" name="TeamRevolutionSG/android_device_sony_common"       revision="cm-13.0"                                            path="device/sony/common"                                    />
+  <project remote="github" name="CyanogenMod/android_device_sony_common"       revision="cm-13.0"                                            path="device/sony/common"                                    />
   <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan-DC"   revision="cm-13.0"                                 		      path="device/sony/huashan"                                   />
 
 <!--Kernel Source Code-->
