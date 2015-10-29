@@ -24,6 +24,6 @@
   <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"              revision="cm-13.0"                                    	   	  path="kernel/sony/msm8x60"                                   />
 
 <!--Qualcomm Common Source Code-->
-  <project remote="github" name="AdrianDC/android_device_qcom_common"              revision="cm-13.0"                                    	   	  path="kernel/sony/msm8x60"                                   />
+  <project remote="github" name="AdrianDC/android_device_qcom_common"              revision="cm-13.0"                                    	   	  path="device/qcom/common"                                   />
 
 </manifest>
