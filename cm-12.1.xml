@@ -24,7 +24,7 @@
   <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1"           	              				  path="vendor/sony"                                           />
 
 <!--Device Assets-->
-  <project remote="github" name="TeamRevolutionSG/android_device_sony_common"       revision="cm-12.1"                                            path="device/sony/common"                                    />
+  <project remote="github" name="CyanogenMod/android_device_sony_common"       revision="cm-12.1"                                            path="device/sony/common"                                    />
   <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan-DC"   revision="cm-12.1_clean"                                      path="device/sony/huashan"                                   />
 
 <!--Kernel Assets-->
