@@ -28,7 +28,7 @@
   <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan-DC"   revision="cm-12.1_clean"                                      path="device/sony/huashan"                                   />
 
 <!--Kernel Assets-->
-  <project remote="github" name="AdrianDC/android_kernel_sony_msm8x60"              revision="cm-12.1_clean"                                      path="kernel/sony/msm8x60"                                   />
+  <project remote="github" name="AdrianDC/android_kernel_sony_msm8960t"              revision="cm-12.1"                                      path="kernel/sony/msm8x60"                                   />
 
 <!--Bootable Recovery Patched-->
   <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"        revision="cm-12.1"                                            path="bootable/recovery"                                     />
