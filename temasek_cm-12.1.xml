@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="sony"   fetch="git://github.com/sonyxperiadev/"                                                />  
-  <remote name="bb"   fetch="https://bitbucket.org/"                                                           />  
 
 <!--Remove Unpatched Recovery-->
   <remove-project          name="temasek/android_bootable_recovery"                                            />
@@ -13,18 +12,11 @@
 <!--Remove Camera2-->
   <remove-project          name="CyanogenMod/android_packages_apps_Camera2"                                    />
   
-<!--Remove Toolchain-->
-  <remove-project          name="arter97/arm-linux-androideabi-4.9"                                            />
-
 <!--Optimised android_build-->
   <project path="build" name="boylush/android_build" remote="github" revision="cm-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-<!--JustArchi's TC-->
-  <project remote="github" name="ArchiDroid/Toolchain"                   revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4"  path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"              />
-  <project remote="github" name="ArchiDroid/Toolchain"                   revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4"  path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-
 <!--Sony Assets-->
   <project remote="sony"   name="thermanager"                                       revision="master"                   groups="device"           path="vendor/sony/system/thermanager"                        />
   <project remote="sony"   name="mkqcdtbootimg"                                     revision="master"                   groups="device"           path="vendor/sony/system/mkqcdtbootimg"                      />
