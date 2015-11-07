@@ -5,14 +5,20 @@
   
 <!--Remove Unpatched Recovery-->
   <remove-project          name="temasek/android_bootable_recovery"                                            />
-  
+
+<!--Remove Temasek/android_build-->
+  <remove-project          name="temasek/android_build"                                                        />
+
 <!--Remove Camera2-->
   <remove-project          name="CyanogenMod/android_packages_apps_Camera2"                                    />
   
+<!--Vendor Assets-->
+  <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1"           	              				  path="vendor/sony"                                           />  
   
-  
-<!--QCOM Assets-->
-  <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"              revision="cm-12.1"                                            path="hardware/qcom/fm"                                      />
+<!--Optimised android_build-->
+  <project path="build" name="boylush/android_build" remote="github" revision="cm-12.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
 <!--Sony Assets-->
   <project remote="sony"   name="thermanager"                                       revision="master"                   groups="device"           path="vendor/sony/system/thermanager"                        />
@@ -24,11 +30,11 @@
   <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1"           	              				  path="vendor/sony"                                           />
 
 <!--Device Assets-->
-  <project remote="github" name="TeamRevolutionSG/android_device_sony_common"       revision="cm-12.1"                                            path="device/sony/common"                                    />
+  <project remote="github" name="CyanogenMod/android_device_sony_common"       revision="cm-12.1"                                            path="device/sony/common"                                    />
   <project remote="github" name="TeamRevolutionSG/android_device_sony_huashan-DC"   revision="cm-12.1_clean"                                      path="device/sony/huashan"                                   />
 
 <!--Kernel Assets-->
-  <project remote="github" name="AdrianDC/android_kernel_sony_msm8960t"              revision="cm-12.1"                                      path="kernel/sony/msm8x60"                                   />
+  <project remote="github" name="TeamRevolutionSG/android_kernel_sony_msm8960t"              revision="cm-12.1"                                      path="kernel/sony/msm8960t"                                   />
 
 <!--Bootable Recovery Patched-->
   <project remote="github" name="TeamRevolutionSG/android_bootable_recovery"        revision="cm-12.1"                                            path="bootable/recovery"                                     />
