@@ -25,10 +25,6 @@
   <project remote="github" name="ArchiDroid/Toolchain"                   revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4"  path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"              />
   <project remote="github" name="ArchiDroid/Toolchain"                   revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4"  path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
-<!--Vendor Assets-->
-  <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1"           	              				          path="vendor/sony"                                           />  
-
-
 <!--Sony Assets-->
   <project remote="sony"   name="thermanager"                                       revision="master"                   groups="device"           path="vendor/sony/system/thermanager"                        />
   <project remote="sony"   name="mkqcdtbootimg"                                     revision="master"                   groups="device"           path="vendor/sony/system/mkqcdtbootimg"                      />
