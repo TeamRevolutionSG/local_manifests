@@ -32,7 +32,7 @@ For CyanogenMod 12.1 Builds Only
 <project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="l-mr1" />
 
 <!--Kernel Assets-->
-<project remote="github" name="TeamRevolutionSG/android_kernel_sony_msm8939" revision="SS_cm-12.1" path="kernel/sony/msm" />
+<project remote="github" name="TeamRevolutionSG/android_kernel_sony_msm8939" revision="SS_cm-12.1" path="kernel/sony/msm8939" />
 
 <!--Bootable Recovery Patched-->
 <project remote="github" name="TeamRevolutionSG/android_bootable_recovery" revision="cm-12.1" path="bootable/recovery" />
