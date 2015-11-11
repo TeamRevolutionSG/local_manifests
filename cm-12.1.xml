@@ -18,10 +18,9 @@ For CyanogenMod 12.1 Builds Only
 <!--Sony Assets-->
 <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
-<project path="vendor/sony/system/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony/system/macaddrsetup" name="TeamRevolutionSG/macaddrsetup" remote="github" revision="master" />
 <project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 <project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="master" />
-<project path="device/qcom/boringssl-compat" name="boringssl-compat" groups="device" remote="sony" revision="master" />
 
 <!--Vendor Assets-->
 <project remote="github" name="TeamRevolutionSG/proprietary_vendor_sony" revision="cm-12.1" path="vendor/sony" />
