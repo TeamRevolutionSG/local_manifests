@@ -9,6 +9,9 @@
 <!--Remove Camera2-->
   <remove-project          name="CyanogenMod/android_packages_apps_Camera2"                                    />
 
+<!--QCOM Assets-->
+  <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"              revision="cm-12.1"                                            path="hardware/qcom/fm"                                      />
+  
 <!--Sony Assets-->
   <project remote="sony"   name="thermanager"                                       revision="master"                   groups="device"           path="vendor/sony/system/thermanager"                        />
   <project remote="sony"   name="mkqcdtbootimg"                                     revision="master"                   groups="device"           path="vendor/sony/system/mkqcdtbootimg"                      />
