@@ -4,7 +4,7 @@
   <remote name="sony"   fetch="git://github.com/sonyxperiadev/"                                                />  
   
 <!--Remove Unpatched Recovery-->
-  <remove-project          name="temasek/android_bootable_recovery"                                            />
+  <remove-project          name="CyanogenMod/android_bootable_recovery"                                            />
   
 <!--Remove Camera2-->
   <remove-project          name="CyanogenMod/android_packages_apps_Camera2"                                    />
