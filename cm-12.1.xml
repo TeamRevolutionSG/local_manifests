@@ -32,7 +32,7 @@ For CyanogenMod 12.1 Builds Only
 <project remote="github" name="TeamRevolutionSG/android_bootable_recovery" revision="cm-12.1" path="bootable/recovery"                                     />
 
 <!--Vendor Assets-->
-<project remote="github" name="TeamRevolutionSG/aosp-vendor-sony" revision="cm-12.1" path="vendor/sony" />
-<project remote="github" name="TeamRevolutionSG/aosp-vendor-qcom" revision="cm-12.1" path="vendor/qcom" />
+<project remote="github" name="TeamRevolutionSG/aosp-vendor-sony" revision="lollipop-mr1" path="vendor/sony" />
+<project remote="github" name="TeamRevolutionSG/aosp-vendor-qcom" revision="lollipop-mr1" path="vendor/qcom" />
 
 </manifest>
