@@ -9,14 +9,9 @@ For CyanogenMod 13.0 Builds Only
 
 <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 <remote name="alviteri" fetch="git://github.com/alviteri/" />
-<remote name="github" fetch="git://github.com/" />
 
 <!--Remove Projects-->
  <remove-project name="CyanogenMod/android_device_qcom_sepolicy" />
- <remove-project name="platform/hardware/qcom/camera" />
-
-<!--QCOM Assets-->
-<project remote="github" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-13.0" path="hardware/qcom/fm" />
 
 <!--Sony Assets-->
 <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
