@@ -19,7 +19,6 @@ For CyanogenMod 13.0 Builds Only
 <project remote="github" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-13.0" path="hardware/qcom/fm" />
 
 <!--Sony Assets-->
-<project path="vendor/sony/kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony/system/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
@@ -28,8 +27,8 @@ For CyanogenMod 13.0 Builds Only
 <!--Device Assets-->
 <project remote="github" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" path="device/qcom/common" />
 <project remote="github" name="CyanogenMod/android_device_sony_common" revision="cm-13.0" path="device/sony/common" />
-<project remote="github" name="TeamRevolutionSG/device-sony-tulip" revision="m-mr1" path="device/sony/tulip" />
-<project remote="github" name="TeamRevolutionSG/device-sony-kanuti" revision="m-mr1" path="device/sony/tulip" />
+<project remote="github" name="AOSPERIA/cm_device_tulip" revision="master" path="device/sony/tulip" />
+<project remote="github" name="AOSPERIA/cm_device_kanuti" revision="master" path="device/sony/kanuti" />
 <project path="device/qcom/boringssl-compat" name="boringssl-compat" groups="device" remote="sony" revision="master" />
 <project remote="github" name="CyanogenMod/android_kernel_sony_msm" revision="cm-13.0" path="kernel/sony/msm" />
 
