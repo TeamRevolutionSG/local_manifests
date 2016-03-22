@@ -16,10 +16,8 @@ For CyanogenMod 12.1 Temasek Builds Only
   <project remote="github" name="CyanogenMod/android_hardware_qcom_fm"              revision="cm-12.1"                                            path="hardware/qcom/fm"                                      />
   
 <!--Sony Assets-->
-  <project remote="sony"   name="thermanager"                                       revision="master"                   groups="device"           path="vendor/sony/system/thermanager"                        />
-  <project remote="sony"   name="mkqcdtbootimg"                                     revision="master"                   groups="device"           path="vendor/sony/system/mkqcdtbootimg"                      />
-  <project remote="sony"   name="timekeep"                                          revision="master"                   groups="device"           path="vendor/sony/system/timekeep"                           />
-  <project remote="github" name="AdrianDC/android_hardware_sony_DASH"               revision="cm-12.1"                  groups="device"           path="hardware/sony/DASH"                                    />
+<project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1" />
 
 <!--Vendor Assets-->
   <project remote="github" name="AdrianDC/proprietary_vendor_sony"                  revision="cm-12.1"           	              				  path="vendor/sony"                                           />
