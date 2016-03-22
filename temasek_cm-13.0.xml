@@ -8,16 +8,13 @@
   <project remote="github" name="CyanogenMod/android_external_stlport" revision="cm-13.0" path="external/stlport" />
 
 <!--Sony Proprietary Modules-->
-  <project remote="sony" name="thermanager"  revision="master" groups="device" path="vendor/sony/system/thermanager" />
-  <project remote="sony" name="mkqcdtbootimg"  revision="master" groups="device" path="vendor/sony/system/mkqcdtbootimg" />
-  <project remote="sony" name="timekeep" revision="master" groups="device" path="vendor/sony/system/timekeep" />
-  <project remote="github" name="AdrianDC/android_hardware_sony_DASH" revision="cm-13.0" groups="device" path="hardware/sony/DASH" />
+<project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-13.0" />
 
 <!--Vendor Assets-->
   <project remote="github" name="AdrianDC/proprietary_vendor_sony" revision="cm-13.0" path="vendor/sony" />
 
 <!--Device Source Code-->
-  <project remote="github" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" path="device/qcom/common" />
   <project remote="github" name="CyanogenMod/android_device_sony_common" revision="cm-13.0" path="device/sony/common" />
   <project remote="github" name="AdrianDC/android_device_sony_huashan" revision="cm-13.0" path="device/sony/huashan"  />
 
